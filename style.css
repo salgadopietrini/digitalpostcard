@@ -1,0 +1,68 @@
+
+.parent{
+    width: 500px;
+    height: 304px;
+    border-radius: 30px;
+    background: linear-gradient(60deg, #CCFFFF, #FFCCCC);
+    font-family: Lobster;
+    display: flex;
+    flex-direction: column;
+}
+
+.parent1{
+    height: 100px;
+    display: flex;
+}
+
+.parent2 {
+    height: 290px;
+    display: flex;
+}
+
+.parent3{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.child1 {
+    width: 80%;
+    margin-left: 10%; 
+    align-self: center;
+}
+
+.child2 {
+    width: 20%;
+    margin-right: 5%; 
+    margin-top: 5%;
+}
+
+.child3 {
+    width: 60%;
+    margin-left: 5%; 
+    align-self: center;
+}
+
+.child4 {
+    width: 40%; 
+    margin-right: 5%;
+    align-self: center;
+}
+
+button {
+    font-family: Anton;
+    font-size: 120%;
+}
+
+ul {
+  list-style-type: none;
+}
+ .smaller-image {
+     height: 80px;
+ }
+
+input[type=text] {
+  border: 2px solid rgb(107, 190, 223);
+  border-radius: 4px;
+}
